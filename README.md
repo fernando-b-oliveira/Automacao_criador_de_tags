@@ -8,6 +8,13 @@
 
 ---
 
+### ⏱️ Impacto de Negócio & Horas Economizadas (Pé no chão)
+- **Tempo de Catalogação:** Redução de **~8 a 10 minutos** por projeto (recorte manual, leitura visual e preenchimento de campos) para **~5 segundos** com extração multimodal via IA.
+- **Economia Operacional Real:** Economia estimada de **~15 a 20 horas mensais** para quem realiza triagem técnica e catalogação de ativos.
+- **Robustez com IA Multimodal:** Identifica textos manuscritos, plantas antigas ou imagens com baixa resolução onde OCRs tradicionais falham.
+
+---
+
 ## 📌 Visão Geral
 Aplicação desktop com captura de tela interativa que permite ao engenheiro/operador selecionar uma região de um projeto técnico ou ordem de serviço. A imagem recortada é enviada ao modelo multimodal **Google Gemini (Vision)** para extração semântica dos dados textuais, enquanto o motor analítico local cruza as informações com o mapa vetorial CAD (.DXF) para gerar as TAGs correspondentes ao setor operacional.
 
